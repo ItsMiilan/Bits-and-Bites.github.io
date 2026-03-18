@@ -1,0 +1,240 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+/*NavBar*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 18px;
+
+}
+
+nav li a:hover {
+    background-color: black;
+
+}
+
+/*Allgemein*/
+body {
+    background-color: #333;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 5em;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    color: white;
+    width: 100%;
+    height: auto;
+    letter-spacing: 1px;
+    background-position: center;
+    background-blend-mode: darken;
+    font-size: 20px;
+    background-size: cover;
+}
+
+section {
+    padding: 30px;
+}
+
+input,
+button {
+    background-color: #f1f1f149;
+    border-color: white;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.897);
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+input:hover,
+input[type="submit"]:hover,
+button:hover {
+    background-color: #f3828234;
+}
+
+input[type="submit"] {
+    margin: 0;
+}
+
+iframe {
+    padding-top: 30px;
+}
+
+/*index.html styling*/
+/*Anfang Hintergrund Bild*/
+
+#index {
+    background-image: url('../images/street-cafe-4472312_1920.jpg');
+    background-color: #726363;
+}
+
+#zeiten {
+    text-align: center;
+}
+
+#zeiten table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*
+Speisekarte
+*/
+#speisekarte {
+    background-image: url('../images/cafe-2153865_1920.jpg');
+    background-color: #5c5a5a;
+}
+
+#speisekarte h3 {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#speisekarte img {
+    border-radius: 40px;
+    width: 300px;
+}
+
+#artikel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#kaffee,
+#tee,
+#kalt,
+#breakfast,
+#snacks,
+#meal,
+#dessert {
+    display: inline-flex;
+    gap: 100px;
+}
+
+#text {
+    text-align: center;
+}
+
+/*
+Reservierung
+*/
+#reservierung {
+    background-image: url('../images/brick-wall-1834784_1920.jpg');
+    background-color: #33333370;
+}
+
+#reservierung h3,
+#reservierung p {
+    text-align: center;
+}
+
+#safed {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1px;
+    border-color: #333;
+}
+
+#safed td,
+#safed th {
+    padding: 20px;
+}
+
+#formular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bilderleiste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    ;
+}
+
+#bilderleiste img {
+    display: inline-flex;
+    height: 200px;
+    width: auto;
+    margin: 20px;
+}
+
+/*
+Events
+*/
+#events {
+    background-image: url('../images/coding-1841550_1920.jpg');
+    background-color: #333;
+}
+
+#events,
+th {
+    vertical-align: top;
+    text-align: left;
+}
+
+#events,
+#index td {
+    text-align: left;
+}
+
+/*
+Kontakt
+*/
+
+#kontakt {
+    background-image: url('../images/pexels-lawrencesuzara-1581554.jpg');
+    background-color: #868686;
+}
+
+#women {
+    float: right;
+    margin-right: 100px;
+    width: 300px;
+}
+
+#adress {
+    margin-top: 20px;
+}
